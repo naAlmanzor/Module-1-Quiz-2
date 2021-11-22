@@ -1,16 +1,7 @@
 html{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
-
-div{
-    margin-top: 300px;
-}
-
-.center{display: block;
-margin-left: auto;
-margin-right: auto;
-max-width: 50%;}
 
 nav li{
     list-style: none; 
@@ -24,3 +15,35 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.main{align-items: center;
+    justify-content: center;}
+
+.center{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;}
+
+.artworks{
+    margin: 10px; 
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-align {text-align: left;}
+.right-aligh {text-align: right;}
+.justify{text-align: justify;}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-color {background-color: #222222; border-radius: 30px;
+}
+
+.white{color: white;}
+.black{color: black;}
