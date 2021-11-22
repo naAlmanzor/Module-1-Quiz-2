@@ -1,6 +1,6 @@
 html{
-    margin-left: 150px;
-    margin-right: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav li{
@@ -17,7 +17,10 @@ nav a{
 }
 
 .main{align-items: center;
-    justify-content: center;}
+    justify-content: center;
+    padding: 4em;
+    gap: 4em;
+}
 
 .center{display: block;
     margin-left: auto;
@@ -45,5 +48,6 @@ nav a{
 .bg-color {background-color: #222222; border-radius: 30px;
 }
 
+.skyblue{color: skyblue;}
 .white{color: white;}
 .black{color: black;}
