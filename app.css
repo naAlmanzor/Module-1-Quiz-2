@@ -1,18 +1,46 @@
-html{
-    padding-left: 10px;
-    padding-right: 10px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-nav li{
-    list-style: none; 
-    display: inline;
-    text-align: center;
-    margin-inline: 30px;
+header {
+    height: 100px;
+    background: #222222;
+    width: 100%;
+    z-index: 12;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
 }
 
 nav a{
-    color: black;
+    color: white;
     text-decoration: none;
+    padding-right: 10px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 500px;
+    float: left;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-size: 30px;
+    border-radius: 20px;
+    line-height: 100px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-transform: uppercase;
 }
 
@@ -41,7 +69,7 @@ nav a{
 
 .navigation{
     position: absolute;
-    bottom: -160%;
+    bottom: -195%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -75,7 +103,7 @@ nav a{
 }
 
 .left-align {text-align: left;}
-.right-aligh {text-align: right;}
+.right-align {text-align: right;}
 .center-align {text-align: center;}
 .justify{text-align: justify;}
 
@@ -85,6 +113,11 @@ nav a{
 }
 
 .bg-color {background-color: #222222; border-radius: 30px;
+}
+
+.header-background{
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .skyblue{color: skyblue;}
