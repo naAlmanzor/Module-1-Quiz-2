@@ -16,8 +16,8 @@ nav a{
     text-transform: uppercase;
 }
 
-.main{align-items: center;
-    justify-content: center;
+.main{
+    align-items: center;
     padding: 4em;
     gap: 4em;
 }
@@ -28,7 +28,44 @@ nav a{
     max-width: 50%;}
 
 .artworks{
-    margin: 10px; 
+    margin: 10px;
+}
+
+.portolio-slideshow{
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation{
+    position: absolute;
+    bottom: -45%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid black;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background-color: black;
+}
+
+.slides{
+    display: flex;
+}
+
+.slide{
+    transition: 0.6s;
 }
 
 .row{
@@ -51,3 +88,51 @@ nav a{
 .skyblue{color: skyblue;}
 .white{color: white;}
 .black{color: black;}
+
+/*Artwork-1*/ 
+
+#r1:checked ~ .s1{
+    margin-left: 35%;
+}
+
+#r1:checked ~ .s2{
+    transform: scale(0.5);
+}
+
+#r1:checked ~ .s3{
+    transform: scale(0.3);
+}
+
+
+/*Artwork-2*/
+
+#r2:checked ~ .s1 {
+    margin-left: 0%;
+    transform: scale(0.5);
+}
+
+#r2:checked ~ .s3{
+    transform: scale(0.5);
+}
+
+
+/*Artwork-2*/
+
+#r3:checked ~ .s1{
+    margin-left: -35%;
+    
+}
+
+
+#r3:checked ~ .s1{
+    transform: scale(0.3);
+}
+
+#r3:checked ~ .s2{
+    transform: scale(0.5);
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
