@@ -96,11 +96,16 @@ nav a{
 }
 
 #r1:checked ~ .s2{
+
+    margin-right: 5%;
     transform: scale(0.5);
+    opacity: 0.5;
 }
 
 #r1:checked ~ .s3{
+    margin-left: -20%;
     transform: scale(0.3);
+    opacity: 0.2;
 }
 
 
@@ -109,27 +114,31 @@ nav a{
 #r2:checked ~ .s1 {
     margin-left: 0%;
     transform: scale(0.5);
+    opacity: 0.5;
 }
 
 #r2:checked ~ .s3{
     transform: scale(0.5);
+    opacity: 0.5;
 }
 
 
 /*Artwork-2*/
 
 #r3:checked ~ .s1{
-    margin-left: -35%;
-    
+    margin-left: -20%;
 }
 
-
 #r3:checked ~ .s1{
+    margin-right: -20%;
     transform: scale(0.3);
+    opacity: 0.2;
 }
 
 #r3:checked ~ .s2{
+    margin-left: 5%;
     transform: scale(0.5);
+    opacity: 0.5;
 }
 
 input[name="r"]{
