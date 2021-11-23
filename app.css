@@ -41,7 +41,7 @@ nav a{
 
 .navigation{
     position: absolute;
-    bottom: -45%;
+    bottom: -62%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -50,6 +50,7 @@ nav a{
 .bar{
     width: 50px;
     height: 10px;
+    border-radius: 10px;
     border: 2px solid black;
     margin: 6px;
     cursor: pointer;
@@ -75,6 +76,7 @@ nav a{
 
 .left-align {text-align: left;}
 .right-aligh {text-align: right;}
+.center-align {text-align: center;}
 .justify{text-align: justify;}
 
 .column{
