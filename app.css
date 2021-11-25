@@ -30,7 +30,7 @@
 }
 
 .artworks{
-    margin: 10px;
+    margin:auto;
 }
 
 .left-align {text-align: left;}
@@ -94,11 +94,11 @@ nav a:hover{
 /* HOME CONTENT */
 
 .bg-text {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #222222;
     color: white;
     font-weight: bold;
     border: 3px solid rgb(255, 255, 255);
-    position: absolute;
+    position: relative;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -108,6 +108,7 @@ nav a:hover{
     padding: 20px;
     text-align: center;
     text-transform: uppercase;
+    display: flex table-row;
 }
 
 .icons{
@@ -122,10 +123,11 @@ nav a:hover{
 /* SLIDESHOW CONTENT */
 
 .navigation{
-    position: absolute;
-    bottom: -172%;
+    position: relative;
+    margin-top: 80px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-10%);
     display: flex;
 }
 
@@ -154,12 +156,13 @@ nav a:hover{
 /*Artwork-1*/ 
 
 #r1:checked ~ .s1{
-    margin-left: 35%;
+    margin-left:35%;
+    transform: scale(1.4);
 }
 
 #r1:checked ~ .s2{
 
-    margin-right: 5%;
+    margin-right: 2%;
     transform: scale(0.5);
     opacity: 0.5;
 }
@@ -179,6 +182,10 @@ nav a:hover{
     opacity: 0.5;
 }
 
+#r2:checked ~ .s2{
+    transform: scale(1.4);
+}
+
 #r2:checked ~ .s3{
     transform: scale(0.5);
     opacity: 0.5;
@@ -188,19 +195,20 @@ nav a:hover{
 /*Artwork-3*/
 
 #r3:checked ~ .s1{
-    margin-left: -20%;
-}
-
-#r3:checked ~ .s1{
-    margin-right: -20%;
+    margin-left: -30%;
     transform: scale(0.3);
     opacity: 0.2;
 }
 
 #r3:checked ~ .s2{
-    margin-left: 5%;
+    margin-left: -10%;
     transform: scale(0.5);
     opacity: 0.5;
+}
+
+#r3:checked ~ .s3{
+    margin-left: 5%;
+    transform: scale(1.4);
 }
 
 /* Radio */
