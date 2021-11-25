@@ -136,6 +136,32 @@ nav a::before{
 .bg-color {background-color: #222222;
 }
 
+.bg-text {
+    background-color: rgba(205, 205, 205, 0.85); /* Black w/opacity/see-through */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 3px solid black;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    z-index: 2;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.icons{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
 .content-area{
     width: 100%;
     position: relative;
