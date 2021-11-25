@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    letter-spacing: 2px;
     scroll-behavior: smooth;
-    scroll-margin: -20px;
+    scroll-margin: 100px;
 }
 
 header {
@@ -11,8 +12,7 @@ header {
     background: #222222;
     width: 100%;
     z-index: 12;
-    /* border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px; */
+    border-bottom: 4px solid white;
     position: fixed;
 }
 
@@ -29,9 +29,7 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
-    margin: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0 10px;
     text-transform: uppercase;
     transition: ease-out 200ms;
 }
@@ -61,7 +59,7 @@ nav a::before{
     font-size: 30px;
     border-radius: 10px;
     line-height: 100px;
-    margin-left: 30px;
+    margin-left: 0px;
     padding-left: 10px;
     padding-right: 10px;
     text-transform: uppercase;
@@ -69,7 +67,7 @@ nav a::before{
 
 .main{
     align-items: center;
-    padding: 4em;
+    /* padding: 2em; */
     gap: 4em;
 }
 
@@ -92,7 +90,7 @@ nav a::before{
 
 .navigation{
     position: absolute;
-    bottom: -195%;
+    bottom: -172%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -135,13 +133,13 @@ nav a::before{
     flex-direction: column;
 }
 
-.bg-color {background-color: #222222; border-radius: 30px;
+.bg-color {background-color: #222222;
 }
 
 .content-area{
     width: 100%;
     position: relative;
-    height: 4000px;
+    height: 3500px;
 }
 
 .header-background{
