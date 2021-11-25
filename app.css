@@ -11,9 +11,14 @@ header {
     background: #222222;
     width: 100%;
     z-index: 12;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    position: relative;
+    /* border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px; */
+    position: fixed;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 10%;
 }
 
 nav{
@@ -56,7 +61,7 @@ nav a::before{
     font-size: 30px;
     border-radius: 10px;
     line-height: 100px;
-    margin-left: 20px;
+    margin-left: 30px;
     padding-left: 10px;
     padding-right: 10px;
     text-transform: uppercase;
@@ -131,6 +136,12 @@ nav a::before{
 }
 
 .bg-color {background-color: #222222; border-radius: 30px;
+}
+
+.content-area{
+    width: 100%;
+    position: relative;
+    height: 4000px;
 }
 
 .header-background{
